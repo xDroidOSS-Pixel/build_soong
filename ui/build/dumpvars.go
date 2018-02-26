@@ -208,6 +208,9 @@ func runMakeProductConfig(ctx Context, config Config) {
 
 		// LLVM compiler wrapper options
 		"TOOLCHAIN_RUSAGE_OUTPUT",
+
+		// skip abi checks
+		"SKIP_ABI_CHECKS",
 	}
 
 	allVars := append(append([]string{
