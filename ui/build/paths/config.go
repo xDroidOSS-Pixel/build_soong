@@ -105,6 +105,7 @@ var Configuration = map[string]PathConfig{
 	"numfmt":  Allowed,
 	"openssl": Allowed,
 	"perl":    Allowed,
+	"pahole":   Allowed,
 	"pstree":  Allowed,
 	"patch":   Allowed,
 	"python3": Allowed,
